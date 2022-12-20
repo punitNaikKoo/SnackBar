@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5E2097229474FAB0059558D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2097129474FAB0059558D /* AppDelegate.swift */; };
+		E5E2097429474FAB0059558D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2097329474FAB0059558D /* SceneDelegate.swift */; };
+		E5E2097629474FAB0059558D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2097529474FAB0059558D /* ViewController.swift */; };
+		E5E2097B29474FAC0059558D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E2097A29474FAC0059558D /* Assets.xcassets */; };
+		E5E2097E29474FAC0059558D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E2097C29474FAC0059558D /* LaunchScreen.storyboard */; };
+		E5E20987294757AC0059558D /* EasyPeasy in Frameworks */ = {isa = PBXBuildFile; productRef = E5E20986294757AC0059558D /* EasyPeasy */; };
+		E5E2098A294757C50059558D /* SnackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E20989294757C50059558D /* SnackView.swift */; };
+		E5E2098D2947591E0059558D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2098C2947591E0059558D /* BaseView.swift */; };
+		E5E2098F29475A2D0059558D /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2098E29475A2D0059558D /* Preview.swift */; };
+		E5E2099129475C620059558D /* SnackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2099029475C620059558D /* SnackModel.swift */; };
+		E5E2099429484AD90059558D /* SnackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2099329484AD90059558D /* SnackBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5E2096E29474FAB0059558D /* SnackBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E2097129474FAB0059558D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E2097329474FAB0059558D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E5E2097529474FAB0059558D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5E2097A29474FAC0059558D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E2097D29474FAC0059558D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5E2097F29474FAC0059558D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E20989294757C50059558D /* SnackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackView.swift; sourceTree = "<group>"; };
+		E5E2098C2947591E0059558D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		E5E2098E29475A2D0059558D /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		E5E2099029475C620059558D /* SnackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackModel.swift; sourceTree = "<group>"; };
+		E5E2099329484AD90059558D /* SnackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5E2096B29474FAB0059558D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E20987294757AC0059558D /* EasyPeasy in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5E2096529474FAB0059558D = {
+			isa = PBXGroup;
+			children = (
+				E5E2097029474FAB0059558D /* SnackBar */,
+				E5E2096F29474FAB0059558D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E2096F29474FAB0059558D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2096E29474FAB0059558D /* SnackBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5E2097029474FAB0059558D /* SnackBar */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2097129474FAB0059558D /* AppDelegate.swift */,
+				E5E2097329474FAB0059558D /* SceneDelegate.swift */,
+				E5E2097529474FAB0059558D /* ViewController.swift */,
+				E5E2098B294759130059558D /* Helpers */,
+				E5E20988294757B50059558D /* Snack */,
+				E5E2097A29474FAC0059558D /* Assets.xcassets */,
+				E5E2097C29474FAC0059558D /* LaunchScreen.storyboard */,
+				E5E2097F29474FAC0059558D /* Info.plist */,
+			);
+			path = SnackBar;
+			sourceTree = "<group>";
+		};
+		E5E20988294757B50059558D /* Snack */ = {
+			isa = PBXGroup;
+			children = (
+				E5E20989294757C50059558D /* SnackView.swift */,
+				E5E2099029475C620059558D /* SnackModel.swift */,
+				E5E2099329484AD90059558D /* SnackBar.swift */,
+			);
+			path = Snack;
+			sourceTree = "<group>";
+		};
+		E5E2098B294759130059558D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2098C2947591E0059558D /* BaseView.swift */,
+				E5E2098E29475A2D0059558D /* Preview.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5E2096D29474FAB0059558D /* SnackBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E2098229474FAC0059558D /* Build configuration list for PBXNativeTarget "SnackBar" */;
+			buildPhases = (
+				E5E2096A29474FAB0059558D /* Sources */,
+				E5E2096B29474FAB0059558D /* Frameworks */,
+				E5E2096C29474FAB0059558D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackBar;
+			packageProductDependencies = (
+				E5E20986294757AC0059558D /* EasyPeasy */,
+			);
+			productName = SnackBar;
+			productReference = E5E2096E29474FAB0059558D /* SnackBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5E2096629474FAB0059558D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E5E2096D29474FAB0059558D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E5E2096929474FAB0059558D /* Build configuration list for PBXProject "SnackBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5E2096529474FAB0059558D;
+			packageReferences = (
+				E5E20985294757AC0059558D /* XCRemoteSwiftPackageReference "EasyPeasy" */,
+			);
+			productRefGroup = E5E2096F29474FAB0059558D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5E2096D29474FAB0059558D /* SnackBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5E2096C29474FAB0059558D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E2097E29474FAC0059558D /* LaunchScreen.storyboard in Resources */,
+				E5E2097B29474FAC0059558D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5E2096A29474FAB0059558D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E2097629474FAB0059558D /* ViewController.swift in Sources */,
+				E5E2098A294757C50059558D /* SnackView.swift in Sources */,
+				E5E2098D2947591E0059558D /* BaseView.swift in Sources */,
+				E5E2097229474FAB0059558D /* AppDelegate.swift in Sources */,
+				E5E2099129475C620059558D /* SnackModel.swift in Sources */,
+				E5E2098F29475A2D0059558D /* Preview.swift in Sources */,
+				E5E2099429484AD90059558D /* SnackBar.swift in Sources */,
+				E5E2097429474FAB0059558D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5E2097C29474FAC0059558D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E2097D29474FAC0059558D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5E2098029474FAC0059558D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5E2098129474FAC0059558D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5E2098329474FAC0059558D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43DLT797F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnackBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftiny.SnackBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5E2098429474FAC0059558D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43DLT797F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnackBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftiny.SnackBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5E2096929474FAB0059558D /* Build configuration list for PBXProject "SnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E2098029474FAC0059558D /* Debug */,
+				E5E2098129474FAC0059558D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E2098229474FAC0059558D /* Build configuration list for PBXNativeTarget "SnackBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E2098329474FAC0059558D /* Debug */,
+				E5E2098429474FAC0059558D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5E20985294757AC0059558D /* XCRemoteSwiftPackageReference "EasyPeasy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nakiostudio/EasyPeasy.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5E20986294757AC0059558D /* EasyPeasy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5E20985294757AC0059558D /* XCRemoteSwiftPackageReference "EasyPeasy" */;
+			productName = EasyPeasy;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E5E2096629474FAB0059558D /* Project object */;
+}
