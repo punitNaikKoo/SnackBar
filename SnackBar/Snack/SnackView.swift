@@ -11,17 +11,13 @@ import EasyPeasy
 
 struct SnackTheme {
     var imageTint: UIColor? = .black
-    
     var titleColor: UIColor? = .black
     var titleFont: UIFont? = .systemFont(ofSize: 20, weight: .medium)
-    
     var subtitleColor: UIColor? = .black
     var subtitleFont: UIFont? = .systemFont(ofSize: 14, weight: .light)
-    
     var buttonTextColor: UIColor? = .black
     var buttonFont: UIFont? = .systemFont(ofSize: 20, weight: .medium)
     var buttonBgColor: UIColor? = .white
-    
     var backgroundColor: UIColor? = .white.withAlphaComponent(0.9)
 }
 

@@ -65,13 +65,13 @@ class SnackBar {
         UIView.animate(withDuration: animated ? 0.5 : 0, delay: 0.1, usingSpringWithDamping: 50, initialSpringVelocity: 10) {
             self.snackView?.transform = .init(translationX: 0, y: 200)
         } completion: { _ in
-//            self.autoHideAfter(delay: 7)
+//            self.autoHideAfter(delay: 2)
         }
     }
     
     private func autoHideAfter(delay: CGFloat) {
         invalidateTimer()
-        let timer = Timer(timeInterval: 1.0, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
+        let timer = Timer(timeInterval: delay, target: self, selector: #selector(fireTimer), userInfo: nil, repeats: true)
         self.timer = timer
         RunLoop.current.add(timer, forMode: .common)
     }
